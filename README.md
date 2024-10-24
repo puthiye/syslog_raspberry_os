@@ -1,6 +1,5 @@
 # Raspberry OS doesn't enable syslog messaging, to install
-sudo apt update
-sudo apt install rsyslog
+sudo apt update && sudo apt install rsyslog
 
 # Limit size of syslog files
 
