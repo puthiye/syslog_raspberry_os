@@ -7,8 +7,8 @@ sudo vi /etc/logrotate.d/rsyslog
 ```
 /var/log/syslog
 {
-    rotate 2
-    daily
+    rotate 1
+    hourly
     maxsize 1G # add this line
     missingok
     notifempty
