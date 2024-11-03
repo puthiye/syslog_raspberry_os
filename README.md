@@ -26,5 +26,6 @@ This will force your syslog to "rotate" (i.e., create a new log file and archive
 
 NOTE:: if the above config doesn't work try copying the cron jobs
 
-``` ucp@pi4:/etc/cron.daily $ sudo cp logrotate ../cron.hourly/
+```
+ ucp@pi4:/etc/cron.daily $ sudo cp logrotate ../cron.hourly/
 ```
